@@ -1,4 +1,4 @@
-package sladki.tfc.Items.ItemBlocks;
+package com.sladki.tfccellars.Items.ItemBlocks;
 
 import net.minecraft.block.Block;
 

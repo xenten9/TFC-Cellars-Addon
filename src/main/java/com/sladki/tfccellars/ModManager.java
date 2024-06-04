@@ -1,4 +1,4 @@
-package sladki.tfc;
+package com.sladki.tfccellars;
 
 import java.util.Map;
 
@@ -15,23 +15,23 @@ import com.bioxx.tfc.api.Crafting.AnvilReq;
 import com.bioxx.tfc.api.Crafting.PlanRecipe;
 import com.bioxx.tfc.api.Enums.RuleEnum;
 import com.bioxx.tfc.api.TFCItems;
+import com.sladki.tfccellars.Blocks.BlockCellarDoor;
+import com.sladki.tfccellars.Blocks.BlockCellarShelf;
+import com.sladki.tfccellars.Blocks.BlockCellarWall;
+import com.sladki.tfccellars.Blocks.BlockIce;
+import com.sladki.tfccellars.Blocks.BlockIceBunker;
+import com.sladki.tfccellars.Handlers.PlayerTickEventHandler;
+import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockCellarShelf;
+import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockCellarWall;
+import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockIce;
+import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockIceBunker;
+import com.sladki.tfccellars.Items.ItemCellarDoor;
+import com.sladki.tfccellars.Items.Tools.ItemIceSaw;
+import com.sladki.tfccellars.Items.Tools.ItemIceSawHead;
+import com.sladki.tfccellars.TileEntities.TECellarShelf;
+import com.sladki.tfccellars.TileEntities.TEIceBunker;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import sladki.tfc.Blocks.BlockCellarDoor;
-import sladki.tfc.Blocks.BlockCellarShelf;
-import sladki.tfc.Blocks.BlockCellarWall;
-import sladki.tfc.Blocks.BlockIce;
-import sladki.tfc.Blocks.BlockIceBunker;
-import sladki.tfc.Handlers.PlayerTickEventHandler;
-import sladki.tfc.Items.ItemBlocks.ItemBlockCellarShelf;
-import sladki.tfc.Items.ItemBlocks.ItemBlockCellarWall;
-import sladki.tfc.Items.ItemBlocks.ItemBlockIce;
-import sladki.tfc.Items.ItemBlocks.ItemBlockIceBunker;
-import sladki.tfc.Items.ItemCellarDoor;
-import sladki.tfc.Items.Tools.ItemIceSaw;
-import sladki.tfc.Items.Tools.ItemIceSawHead;
-import sladki.tfc.TileEntities.TECellarShelf;
-import sladki.tfc.TileEntities.TEIceBunker;
 
 public class ModManager {
 

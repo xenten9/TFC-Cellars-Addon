@@ -1,4 +1,4 @@
-package sladki.tfc.Items;
+package com.sladki.tfccellars.Items;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -11,9 +11,8 @@ import com.bioxx.tfc.Core.TFCTabs;
 import com.bioxx.tfc.Items.ItemTerra;
 import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
-
-import sladki.tfc.Cellars;
-import sladki.tfc.ModManager;
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.ModManager;
 
 public class ItemCellarDoor extends ItemTerra {
 

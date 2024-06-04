@@ -1,4 +1,4 @@
-package sladki.tfc.Gui;
+package com.sladki.tfccellars.Gui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import net.minecraft.util.StatCollector;
 
 import org.lwjgl.opengl.GL11;
 
-import sladki.tfc.Cellars;
-import sladki.tfc.Containers.ContainerCellarShelf;
-import sladki.tfc.TileEntities.TECellarShelf;
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.Containers.ContainerCellarShelf;
+import com.sladki.tfccellars.TileEntities.TECellarShelf;
 
 public class GuiCellarShelf extends GuiContainer {
 

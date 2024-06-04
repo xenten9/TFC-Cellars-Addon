@@ -1,4 +1,4 @@
-package sladki.tfc.TileEntities;
+package com.sladki.tfccellars.TileEntities;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
@@ -20,9 +20,9 @@ import com.bioxx.tfc.Core.TFC_Core;
 import com.bioxx.tfc.Core.TFC_Time;
 import com.bioxx.tfc.api.TFCBlocks;
 
-import sladki.tfc.Blocks.BlockCellarDoor;
-import sladki.tfc.ModConfig;
-import sladki.tfc.ModManager;
+import com.sladki.tfccellars.Blocks.BlockCellarDoor;
+import com.sladki.tfccellars.ModConfig;
+import com.sladki.tfccellars.ModManager;
 
 public class TEIceBunker extends TileEntity implements IInventory {
 

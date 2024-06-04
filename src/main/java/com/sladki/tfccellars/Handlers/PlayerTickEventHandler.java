@@ -1,9 +1,10 @@
-package sladki.tfc.Handlers;
+package com.sladki.tfccellars.Handlers;
+
+import com.sladki.tfccellars.ModManager;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
-import sladki.tfc.ModManager;
 
 public class PlayerTickEventHandler {
 

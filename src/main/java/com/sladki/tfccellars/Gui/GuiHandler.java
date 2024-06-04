@@ -1,14 +1,15 @@
-package sladki.tfc.Gui;
+package com.sladki.tfccellars.Gui;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
+import com.sladki.tfccellars.Containers.ContainerCellarShelf;
+import com.sladki.tfccellars.Containers.ContainerIceBunker;
+import com.sladki.tfccellars.TileEntities.TECellarShelf;
+import com.sladki.tfccellars.TileEntities.TEIceBunker;
+
 import cpw.mods.fml.common.network.IGuiHandler;
-import sladki.tfc.Containers.ContainerCellarShelf;
-import sladki.tfc.Containers.ContainerIceBunker;
-import sladki.tfc.TileEntities.TECellarShelf;
-import sladki.tfc.TileEntities.TEIceBunker;
 
 public class GuiHandler implements IGuiHandler {
 

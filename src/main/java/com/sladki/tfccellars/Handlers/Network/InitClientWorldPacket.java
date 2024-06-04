@@ -1,12 +1,12 @@
-package sladki.tfc.Handlers.Network;
+package com.sladki.tfccellars.Handlers.Network;
 
 import net.minecraft.entity.player.EntityPlayer;
 
 import com.bioxx.tfc.Handlers.Network.AbstractPacket;
+import com.sladki.tfccellars.ModManager;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import sladki.tfc.ModManager;
 
 public class InitClientWorldPacket extends AbstractPacket {
 

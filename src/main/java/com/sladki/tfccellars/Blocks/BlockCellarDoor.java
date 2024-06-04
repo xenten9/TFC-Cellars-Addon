@@ -1,4 +1,4 @@
-package sladki.tfc.Blocks;
+package com.sladki.tfccellars.Blocks;
 
 import java.util.ArrayList;
 
@@ -16,10 +16,11 @@ import net.minecraft.util.Vec3;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.ModManager;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import sladki.tfc.Cellars;
-import sladki.tfc.ModManager;
 
 public class BlockCellarDoor extends Block {
 

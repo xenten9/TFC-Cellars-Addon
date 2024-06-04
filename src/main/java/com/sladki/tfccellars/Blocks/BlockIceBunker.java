@@ -1,4 +1,4 @@
-package sladki.tfc.Blocks;
+package com.sladki.tfccellars.Blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
@@ -13,9 +13,8 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
 import com.bioxx.tfc.Core.TFCTabs;
-
-import sladki.tfc.Cellars;
-import sladki.tfc.TileEntities.TEIceBunker;
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.TileEntities.TEIceBunker;
 
 public class BlockIceBunker extends BlockContainer {
 

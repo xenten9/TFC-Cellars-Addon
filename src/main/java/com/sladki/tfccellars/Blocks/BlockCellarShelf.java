@@ -1,4 +1,4 @@
-package sladki.tfc.Blocks;
+package com.sladki.tfccellars.Blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
@@ -14,11 +14,11 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import com.bioxx.tfc.Core.TFCTabs;
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.TileEntities.TECellarShelf;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import sladki.tfc.Cellars;
-import sladki.tfc.TileEntities.TECellarShelf;
 
 public class BlockCellarShelf extends BlockContainer {
 

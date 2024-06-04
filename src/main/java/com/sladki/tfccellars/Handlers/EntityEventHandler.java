@@ -1,13 +1,14 @@
-package sladki.tfc.Handlers;
+package com.sladki.tfccellars.Handlers;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 
+import com.sladki.tfccellars.ModManager;
+
 import cpw.mods.fml.common.eventhandler.EventPriority;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import sladki.tfc.ModManager;
 
 public class EntityEventHandler {
 

@@ -1,4 +1,4 @@
-package sladki.tfc;
+package com.sladki.tfccellars;
 
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;

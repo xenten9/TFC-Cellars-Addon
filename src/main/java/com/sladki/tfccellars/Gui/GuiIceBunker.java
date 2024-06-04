@@ -1,4 +1,4 @@
-package sladki.tfc.Gui;
+package com.sladki.tfccellars.Gui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import net.minecraft.util.StatCollector;
 
 import org.lwjgl.opengl.GL11;
 
-import sladki.tfc.Cellars;
-import sladki.tfc.Containers.ContainerIceBunker;
-import sladki.tfc.TileEntities.TEIceBunker;
+import com.sladki.tfccellars.Cellars;
+import com.sladki.tfccellars.Containers.ContainerIceBunker;
+import com.sladki.tfccellars.TileEntities.TEIceBunker;
 
 public class GuiIceBunker extends GuiContainer {
 

@@ -1,4 +1,4 @@
-package sladki.tfc.Containers;
+package com.sladki.tfccellars.Containers;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -6,7 +6,7 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
-import sladki.tfc.ModManager;
+import com.sladki.tfccellars.ModManager;
 
 public class SlotIceBunker extends Slot {
 

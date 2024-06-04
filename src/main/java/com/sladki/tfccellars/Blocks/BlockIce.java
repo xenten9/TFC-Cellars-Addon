@@ -1,4 +1,4 @@
-package sladki.tfc.Blocks;
+package com.sladki.tfccellars.Blocks;
 
 import java.util.Random;
 

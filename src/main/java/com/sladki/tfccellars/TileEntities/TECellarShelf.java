@@ -1,4 +1,4 @@
-package sladki.tfc.TileEntities;
+package com.sladki.tfccellars.TileEntities;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;

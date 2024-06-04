@@ -1,6 +1,9 @@
-package sladki.tfc;
+package com.sladki.tfccellars;
 
 import net.minecraftforge.common.MinecraftForge;
+
+import com.sladki.tfccellars.Handlers.ChunkEventHandler;
+import com.sladki.tfccellars.Handlers.EntityEventHandler;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -8,13 +11,11 @@ import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import sladki.tfc.Handlers.ChunkEventHandler;
-import sladki.tfc.Handlers.EntityEventHandler;
 
 @Mod(name = Cellars.MODNAME, modid = Cellars.MODID, version = Cellars.VERSION, dependencies = "after:terrafirmacraft")
 public class Cellars {
 
-    public static final String MODID = "tfccellarsaddon";
+    public static final String MODID = "tfccellars";
     public static final String MODNAME = "TFC Cellars Addon";
     public static final String VERSION = "1.2";
 

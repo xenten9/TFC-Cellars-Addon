@@ -1,11 +1,12 @@
-package sladki.tfc;
+package com.sladki.tfccellars;
 
 import net.minecraft.item.ItemStack;
 
+import com.sladki.tfccellars.Blocks.BlockCellarShelf;
+import com.sladki.tfccellars.Render.RenderCellarShelf;
+
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Loader;
-import sladki.tfc.Blocks.BlockCellarShelf;
-import sladki.tfc.Render.RenderCellarShelf;
 
 public class ClientProxy extends CommonProxy {
 

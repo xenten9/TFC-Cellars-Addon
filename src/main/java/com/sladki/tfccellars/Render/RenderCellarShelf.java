@@ -1,4 +1,4 @@
-package sladki.tfc.Render;
+package com.sladki.tfccellars.Render;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
@@ -8,8 +8,9 @@ import net.minecraft.world.IBlockAccess;
 
 import org.lwjgl.opengl.GL11;
 
+import com.sladki.tfccellars.Blocks.BlockCellarShelf;
+
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
-import sladki.tfc.Blocks.BlockCellarShelf;
 
 public class RenderCellarShelf implements ISimpleBlockRenderingHandler {
 
