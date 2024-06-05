@@ -1,6 +1,7 @@
 tile.CellarWall.name=Cellar Wall
 tile.CellarShelf.name=Cellar Shelf
 tile.IceBunker.name=Ice Bunker
+tile.IceBunker2.name=Ice Bunker 2
 tile.CellarDoor.name=Cellar Door
 tile.Ice.name=Ice
 item.CellarDoor.name=Cellar Door

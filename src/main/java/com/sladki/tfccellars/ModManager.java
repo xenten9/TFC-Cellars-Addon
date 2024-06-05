@@ -20,16 +20,19 @@ import com.sladki.tfccellars.Blocks.BlockCellarShelf;
 import com.sladki.tfccellars.Blocks.BlockCellarWall;
 import com.sladki.tfccellars.Blocks.BlockIce;
 import com.sladki.tfccellars.Blocks.BlockIceBunker;
+import com.sladki.tfccellars.Blocks.BlockIceBunker2;
 import com.sladki.tfccellars.Handlers.PlayerTickEventHandler;
 import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockCellarShelf;
 import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockCellarWall;
 import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockIce;
 import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockIceBunker;
+import com.sladki.tfccellars.Items.ItemBlocks.ItemBlockIceBunker2;
 import com.sladki.tfccellars.Items.ItemCellarDoor;
 import com.sladki.tfccellars.Items.Tools.ItemIceSaw;
 import com.sladki.tfccellars.Items.Tools.ItemIceSawHead;
 import com.sladki.tfccellars.TileEntities.TECellarShelf;
 import com.sladki.tfccellars.TileEntities.TEIceBunker;
+import com.sladki.tfccellars.TileEntities.TEIceBunker2;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -37,6 +40,7 @@ public class ModManager {
 
     public static Block CellarWallBlock;
     public static Block IceBunkerBlock;
+    public static Block IceBunker2Block;
     public static Block CellarShelfBlock;
     public static Block CellarDoorBlock;
     public static Block IceBlock;
@@ -67,6 +71,7 @@ public class ModManager {
 
     public static void registerTileEntities() {
         GameRegistry.registerTileEntity(TEIceBunker.class, "IceBunker");
+        GameRegistry.registerTileEntity(TEIceBunker2.class, "IceBunker2");
         GameRegistry.registerTileEntity(TECellarShelf.class, "CellarShelf");
     }
 
@@ -74,6 +79,8 @@ public class ModManager {
         CellarWallBlock = new BlockCellarWall(Material.wood).setBlockName("CellarWall")
             .setHardness(4);
         IceBunkerBlock = new BlockIceBunker(Material.wood).setBlockName("IceBunker")
+            .setHardness(5);
+        IceBunker2Block = new BlockIceBunker2(Material.wood).setBlockName("IceBunker2")
             .setHardness(5);
         CellarShelfBlock = new BlockCellarShelf(Material.wood).setBlockName("CellarShelf")
             .setHardness(3);
@@ -88,6 +95,7 @@ public class ModManager {
     public static void registerBlocks() {
         GameRegistry.registerBlock(CellarWallBlock, ItemBlockCellarWall.class, "CellarWall");
         GameRegistry.registerBlock(IceBunkerBlock, ItemBlockIceBunker.class, "IceBunker");
+        GameRegistry.registerBlock(IceBunker2Block, ItemBlockIceBunker2.class, "IceBunker2");
         GameRegistry.registerBlock(CellarShelfBlock, ItemBlockCellarShelf.class, "CellarShelf");
         GameRegistry.registerBlock(CellarDoorBlock, "CellarDoor");
         GameRegistry.registerBlock(IceBlock, ItemBlockIce.class, "Ice");
@@ -174,6 +182,12 @@ public class ModManager {
             new ShapedOreRecipe(
                 new ItemStack(IceBunkerBlock, 1, 0),
                 new Object[] { "P P", "W W", "P P", Character.valueOf('P'), "woodLumber", Character.valueOf('W'),
+                    "plankWood" }));
+
+        GameRegistry.addRecipe(
+            new ShapedOreRecipe(
+                new ItemStack(IceBunker2Block, 1, 0),
+                new Object[] { "PWP", "WWW", "PWP", Character.valueOf('P'), "woodLumber", Character.valueOf('W'),
                     "plankWood" }));
 
         GameRegistry.addRecipe(

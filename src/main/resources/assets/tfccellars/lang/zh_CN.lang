@@ -3,6 +3,7 @@
 tile.CellarWall.name=地窖墙
 tile.CellarShelf.name=地窖架子
 tile.IceBunker.name=地窖冷源
+tile.IceBunker2.name=地窖冷源二
 tile.CellarDoor.name=地窖门
 tile.Ice.name=冰
 item.CellarDoor.name=地窖门
