@@ -30,12 +30,9 @@ public class EntityEventHandler {
             }
 
             if (blocks > 1) {
-                event.setCanceled(true);;
+                event.setCanceled(true);
             }
-
-            return;
         }
-
     }
 
 }
